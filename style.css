@@ -5,134 +5,60 @@
     box-sizing: border-box;
   }
   
-  /* Body Styling */
-  body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background: #f4f4f9;
-    color: #333;
-    text-align: center;
-    padding: 0 20px;
-  }
-  
-  /* Header */
-  header {
-    background: #0078d7;
-    color: white;
-    padding: 20px 0;
-    margin-bottom: 20px;
-  }
-  
-  header h1 {
-    font-size: 2.5rem;
-  }
-  
-  header p {
-    font-size: 1.2rem;
-  }
-  
-  /* Main Sections */
-  main section {
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 600px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  main section:hover {
-    transform: translateY(-5px);
-  }
-  
-  main section h2 {
-    color: #0078d7;
-    margin-bottom: 10px;
-  }
-  
-  main section p {
-    font-size: 1rem;
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  main section button {
-    background: #0078d7;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background 0.3s ease-in-out;
-  }
-  
-  main section button:hover {
-    background: #0053a6;
-  }
-
-  /* Back Button */
-.back-button {
-    display: inline-block;
-    margin-top: 10px;
-    color: white;
-    background: #0078d7;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background 0.3s ease-in-out;
-  }
-  
-  .back-button:hover {
-    background: #0053a6;
-  }
-  
-  /* News Section */
-  #news-container {
-    max-width: 800px;
-    margin: 20px auto;
-    text-align: left;
-  }
-  
-  .news-article {
-    background: white;
-    margin: 20px 0;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .news-article h3 {
-    font-size: 1.2rem;
-    color: #0078d7;
-  }
-  
-  .news-article p {
-    font-size: 1rem;
-    color: #555;
-    margin: 10px 0;
-  }
-  
-  .news-article a {
-    text-decoration: none;
-    color: #0078d7;
-    font-weight: bold;
-  }
-  
-  .news-article a:hover {
-    text-decoration: underline;
-  }
-
-  /* Cat Facts Container */
-#cat-facts-container {
-  max-width: 600px;
-  margin: 20px auto;
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333333;
   text-align: center;
+  padding: 0 20px;
+}
+  
+/* Header */
+header {
+  background: #009688;
+  color: #ffffff;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+  
+header h1 {
+  font-size: 2.5rem;
 }
 
-#fetch-cat-fact {
-  background: #0078d7;
+header p {
+  font-size: 1.2rem;
+}
+  
+/* Main Sections */
+main section {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+main section:hover {
+  transform: translateY(-5px);
+}
+
+main section h2 {
+  color: #009688;
+  margin-bottom: 10px;
+}
+
+main section p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+main section button {
+  background: #00796b;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -142,57 +68,148 @@
   transition: background 0.3s ease-in-out;
 }
 
-#fetch-cat-fact:hover {
-  background: #0053a6;
+main section button:hover {
+  background: #005a4f;
 }
 
-#cat-fact-display {
-  background: white;
+/* Back Button */
+.back-button {
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  background: #00796b;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+  
+.back-button:hover {
+  background: #005a4f;
+}
+  
+/* News API Container */
+#news-container {
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.news-article {
+  background: #ffffff;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.news-article:hover {
+  transform: translateY(-5px);
+}
+
+.news-article h3 {
+  font-size: 1.2rem;
+  color: #009688;
+}
+
+.news-article p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.news-article a {
+  text-decoration: none;
+  color: #00796b;
+  font-weight: bold;
+}
+
+.news-article a:hover {
+  text-decoration: underline;
+  color: #005a4f;
+}
+
+/* Cat Facts / Jokes Display Containers */
+#cat-fact-display,
+#joke-display {
+  background: #ffffff;
   margin-top: 20px;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#cat-fact-display p {
+#cat-fact-display p,
+#joke-display p {
   font-size: 1.2rem;
-  color: #555;
+  color: #333333;
   margin-bottom: 10px;
 }
+
+/* Fetch Buttons */
+#fetch-cat-fact,
+#fetch-joke {
+  background: #009688;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease-in-out;
+}
+
+#fetch-cat-fact:hover,
+#fetch-joke:hover {
+  background: #00796b;
+}
   
-  /* Jokes Container */
+/* Jokes API Container */
 #jokes-container {
-    max-width: 600px;
-    margin: 20px auto;
-    text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#fetch-joke {
+  background: #009688;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease-in-out;
+}
+
+#fetch-joke:hover {
+  background: #00796b;
+}
+
+#joke-display {
+  background: #ffffff;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+#joke-display p {
+  font-size: 1.2rem;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+/* Animation for Joke Display */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
   }
-  
-  #fetch-joke {
-    background: #0078d7;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background 0.3s ease-in-out;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  #fetch-joke:hover {
-    background: #0053a6;
-  }
-  
-  #joke-display {
-    background: white;
-    margin-top: 20px;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  #joke-display p {
-    font-size: 1.2rem;
-    color: #555;
-    margin-bottom: 10px;
-  }
-  
+}
