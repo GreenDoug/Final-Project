@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Movie Database API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Movie Database API</h1>
+    <p>Find movies, TV shows, and more!</p>
+    <a href="index.html" class="back-button">Back to Home</a>
+  </header>
+
+  <main>
+    <section id="movie-container">
+      <form id="movie-form">
+        <label for="movie-query">Search for a movie or show:</label>
+        <input type="text" id="movie-query" placeholder="e.g., Inception" required>
+        <button type="submit">Search</button>
+      </form>
+      <div id="movie-results">
+        <p>Enter a query to find movies or shows.</p>
+      </div>
+    </section>
+  </main>
+  
+  <script src="scripts/movies.js"></script>
+</body>
+</html>

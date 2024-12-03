@@ -165,16 +165,38 @@ main section button:hover {
   background: #00796b;
 }
   
-/* Jokes API Container */
-#jokes-container {
+/* Cryptocurrency Tracker Container */
+#crypto-container {
   max-width: 600px;
   margin: 20px auto;
-  text-align: center;
+  text-align: left;
 }
 
-#fetch-joke {
+#crypto-form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#crypto-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #009688;
+}
+
+#crypto-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#crypto-form button {
   background: #009688;
-  color: #ffffff;
+  color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -183,33 +205,22 @@ main section button:hover {
   transition: background 0.3s ease-in-out;
 }
 
-#fetch-joke:hover {
+#crypto-form button:hover {
   background: #00796b;
 }
 
-#joke-display {
-  background: #ffffff;
+/* Cryptocurrency Results */
+#crypto-results {
+  background: white;
   margin-top: 20px;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  animation: fadeIn 0.5s ease-in-out;
 }
 
-#joke-display p {
+#crypto-results p {
   font-size: 1.2rem;
   color: #333333;
   margin-bottom: 10px;
 }
 
-/* Animation for Joke Display */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}

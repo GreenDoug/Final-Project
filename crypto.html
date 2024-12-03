@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cryptocurrency Tracker API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cryptocurrency Tracker API</h1>
+    <p>Track real-time cryptocurrency prices and market data!</p>
+    <a href="index.html" class="back-button">Back to Home</a>
+  </header>
+
+  <main>
+    <section id="crypto-container">
+      <form id="crypto-form">
+        <label for="crypto-symbol">Enter Cryptocurrency Symbol (e.g., BTC, ETH):</label>
+        <input type="text" id="crypto-symbol" placeholder="e.g., BTC, ETH" required>
+        <button type="submit">Get Price</button>
+      </form>
+      <div id="crypto-results">
+        <p>Enter a cryptocurrency symbol to get market data.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="scripts/crypto.js"></script>
+</body>
+</html>
