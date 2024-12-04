@@ -1,9 +1,8 @@
 const cryptoForm = document.getElementById("crypto-form");
 const cryptoResults = document.getElementById("crypto-results");
 
-// Fetch cryptocurrency data from CoinMarketCap API
 const fetchCryptoData = async (symbol) => {
-  const apiKey = "c382741b-6c43-469d-8f56-2034274e56a1"; // Replace with your valid API key
+  const apiKey = "c382741b6c43469d8f562034274e56a1";
   const url = `https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=${symbol}`;
 
   try {
