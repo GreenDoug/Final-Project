@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Discovery API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <h1>Recipe Discovery API</h1>
+      <p>Find delicious recipes based on your ingredients!</p>
+      <a href="index.html" class="back-button">Back to Home</a>
+    </header>
+
+    <main>
+      <section id="recipe-container">
+        <form id="recipe-form">
+          <label for="ingredients">Enter Ingredients (comma-separated):</label>
+          <input type="text" id="ingredients" placeholder="e.g., chicken, rice" required>
+          <button type="submit">Search Recipes</button>
+        </form>
+        <div id="recipe-results">
+          <p>Enter ingredients to find matching recipes.</p>
+        </div>
+      </section>
+    </main>
+    <script src="scripts/recipes.js"></script>
+</body>
+</html>
